@@ -1,1 +1,19 @@
 /* Start coding here */
+body {
+  background-color: lightgray;
+}
+
+.all-cards {
+  background-color: black;
+  padding: 16px;
+  height: 100vh;
+  width: 100vw;
+}
+
+.card {
+  background-color: khaki;
+  border: 24px solid crimson;
+  height: 94%;
+  font-size: 72px;
+  text-align: center;
+}
