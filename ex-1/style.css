@@ -1,1 +1,41 @@
 /* Start coding here */
+* {
+  margin: 0px;
+}
+
+header {
+  background-color: #92aabd;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+  padding-right: 20px;
+}
+
+.all-cards {
+  padding: 5px;
+}
+
+.all-cards > h1,
+img,
+p,
+.card {
+  margin: 50px;
+  padding: 5px;
+}
+
+.card {
+  background-color: #e4e9ed;
+  border: 5px solid #34495e;
+  width: 40%;
+}
+
+.card > h1,
+img,
+p {
+  margin: 6px;
+}
+
+.card > img {
+  width: 75%;
+  height: 75%;
+}
