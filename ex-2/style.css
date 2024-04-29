@@ -1,1 +1,29 @@
-/* Start coding here */
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer-box {
+    background-color: lightgray;
+    width: 100vw;
+    height: 100vh;
+    padding: 16px;
+}
+
+.box {
+    background-color: black; 
+    height: 100%;
+    padding: 16px;
+}
+
+.inner-box {
+    background-color: khaki;
+    border: crimson solid 24px;
+    height: 100%;
+}
+
+p { 
+    font-size: 72px;
+    text-align: center;
+    padding: 30px
+}
